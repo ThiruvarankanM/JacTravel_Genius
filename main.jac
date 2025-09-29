@@ -31,8 +31,8 @@ obj TravelPlan {
     has total_cost: float;
 }
 
-sem TravelPlan = "Complete travel itinerary. MUST use destination's local currency code (LKR for Sri Lanka, JPY for Japan, EUR for Europe, INR for India etc.) NOT USD. Use realistic local market prices";
-sem DayPlan = "Activities planned for a single day";
+sem TravelPlan = "Complete travel itinerary. MUST use destination's local currency code (LKR for Sri Lanka, JPY for Japan, EUR for Europe, INR for India etc.) NOT USD. Use realistic local market prices..and when give the prices dont add $ sympols just add currency as USD,LKR,like that..based on country";
+sem DayPlan = "Activities planned for a single day with costs in local currency format (e.g., 'LKR 1800' not '$1800')";
 sem Activity = "Activity with timing and cost in destination's local currency (NOT USD)";
 
 def create_itinerary(destination: str, days: int, budget: Budget, interests: str) -> TravelPlan by llm(method="Reason");
