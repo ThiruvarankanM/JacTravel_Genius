@@ -12,7 +12,8 @@ An interactive AI-powered travel itinerary generator. Enter your destination, tr
 
 ## Demo
 
-![Demo Screenshot](demo.png) <!-- Add a screenshot if available -->
+[![Demo Video](https://img.youtube.com/vi/o55G-XqW5Ko/0.jpg)](https://youtu.be/o55G-XqW5Ko)
+
 
 ## Getting Started
 
